@@ -187,9 +187,9 @@ h2 {
 .w1 input[type="radio"],
 .w1 input[type="checkbox"] {
     position: relative;
-    top: 1px;
-    left: -2px;
-    transform: scale(1.1);
+    top: 2px;
+    left: -5px;
+    transform: scale(1);
 }
 
 .w1 input[type="radio"] {
