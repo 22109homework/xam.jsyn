@@ -1,0 +1,302 @@
+body {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 0px 15px 25px 15px;
+    /* 禁止文本选择 */
+    -webkit-user-select: none;
+    /* Chrome, Safari, Opera */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* 其他现代浏览器 */
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE/Edge */
+    user-select: none;
+    /* 标准语法 */
+
+
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100% - 22px);
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+}
+
+button {
+    background-color: #ff6100;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border: 0;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: calc(100% - 22px);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+}
+
+#filteredResultt>span:nth-child(1),
+#filteredNumberst>span:nth-child(1),
+#filteredResulthttp>span:nth-child(1),
+#result1s>span:nth-child(1),
+#result>span:nth-child(1),
+#filteredResult>span:nth-child(1) {
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    /* padding: 0 0 5px 0px; */
+
+}
+
+button:hover {
+    background-color:#ff4800;
+}
+
+#filteredResult,
+#filteredResultt,
+#filteredNumberst,
+#filteredResulthttp,
+#result,
+#outputb,
+#resultContainer,
+#result1s,
+#resultField {
+    padding: 10px 4px 10px 15px;
+    background-color: #2548ff;
+    border-radius: 4px;
+    margin: 10px 10px 0 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+}
+
+.css {
+    text-align: center;
+    margin: -15px auto;
+    width: 100%;
+    padding: 1px 0px 60px 0px;
+    border-radius: 8px;
+    background: #00000012;
+    box-shadow: 0px 0px 35px 0px rgb(0 0 0 / 10%);
+}
+
+body {
+
+    background-color: #e74c3c;
+
+    animation: bg-color 80s infinite;
+
+    -webkit-animation: bg-color 80s infinite;
+
+}
+
+h2 {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 10px;
+}
+
+@-webkit-keyframes bg-color {
+
+    0% {
+        background-color: #e74c3c;
+    }
+
+    20% {
+        background-color: #f1c40f;
+    }
+
+    40% {
+        background-color: #1abc9c;
+    }
+
+    60% {
+        background-color: #3498db;
+    }
+
+    80% {
+        background-color: #9b59b6;
+    }
+
+    100% {
+        background-color: #e74c3c;
+    }
+
+}
+
+@keyframes bg-color {
+
+    0% {
+        background-color: #e74c3c;
+    }
+
+    20% {
+        background-color: #f1c40f;
+    }
+
+    40% {
+        background-color: #1abc9c;
+    }
+
+    60% {
+        background-color: #3498db;
+    }
+
+    80% {
+        background-color: #9b59b6;
+    }
+
+    100% {
+        background-color: #e74c3c;
+    }
+
+}
+
+.an {
+    display: flex;
+    padding: 0 10px 0 10px;
+    gap: 35px;
+}
+
+.sxjg {
+    font-weight: bold;
+    color: white;
+}
+
+/* 为选择框添加样式 */
+.w input[type="checkbox"],
+.w1 input[type="radio"],
+.w1 input[type="checkbox"] {
+    position: relative;
+    top: 1px;
+    left: -2px;
+    transform: scale(1.5);
+}
+
+.w1 input[type="radio"] {
+    top: 1px;
+    left: 1px;
+}
+
+.jsyn {
+    font-size: 15px;
+    position: relative;
+    top: -25px;
+    font-weight: bold;
+    color: #2700ff;
+    background: white;
+    padding: 4px;
+    width: 145px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.sxjg span {
+    color: white;
+    font-weight: bold;
+}
+
+.w label,
+.w1 label {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 5px 0 0px;
+    position: relative;
+    left: 5px;
+}
+
+.ds {
+    padding: 0 55px 0 0 !important;
+    left: 25px !important;
+}
+
+.w1>label {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 38px 0 0px;
+    left: 18px;
+}
+strong{
+    color: white;
+}
+#qc {
+    position: fixed;
+    bottom: 14.5em;
+    right: 14%;
+    width: 55px;
+    font-size: 12px;
+    transform: translateX(50%);
+    background-color: #ff4444;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 8%);
+    padding: 10px;
+}
+
+#qc:hover {
+    background-color: #ff1919;
+    /* 设置鼠标悬停时的背景色 */
+}
+
+/* 取消按钮默认点击效果 */
+button {
+    -webkit-tap-highlight-color: transparent;
+    /* 隐藏点击时的高亮效果 */
+    outline: none;
+    /* 隐藏点击时的虚线框 */
+}
+
+/* 弹窗复制 */
+.notification {
+    display: none;
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    font-size: 22px;
+    transform: translateX(-50%);
+    background-color: #00ff1a;
+    color: rgb(255, 0, 0);
+    padding: 6px 10px 8px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.show {
+    display: block;
+}
+
+input {
+    border: none;
+    /* 去除边框 */
+    outline: none;
+    /* 去除轮廓 */
+}
