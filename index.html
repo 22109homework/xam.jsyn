@@ -16,7 +16,7 @@
         <!-- 1.六合彩杀号工具 -->
         <h2>一、六合彩杀号工具</h2>
         <input type="text" id="numbersInput" placeholder="1.请输入数字如: 21 33 15 27"
-            value="01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49">
+            value="01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49">
         <button class="clear-button" onclick="clearInputt()">清楚内容</button>
 
         <br>
@@ -36,7 +36,7 @@
         <h2>二、杀生肖</h2>
         <input type="text" id="sty2" style="display: none;">
         <input type="text" id="userInput" placeholder="4.请输入生肖号如: 11 22 33"
-            value="01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49"
+            value="01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49"
             required>
         <input type="text" id="shengxiaoInput" class="input" placeholder="5.请输入如: 兔鼠鸡" value="兔" required><br>
         <div class="an">
@@ -51,7 +51,7 @@
             <h2>三、杀五行</h2>
             <input type="text" id="sty3" style="display: none;">
             <input type="text" id="goldNumbers" for="goldNumbers" placeholder="6.请输入生肖号如: 11,22,33"
-                value="01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49">
+                value="01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49">
             <br><br>
 
             <label for="gold">杀金
@@ -80,7 +80,7 @@
             <h2>四、杀三色波</h2>
             <input type="text" id="sty4" style="display: none;">
             <input type="text" id="numbers" name="numbers" placeholder="7.请输入生肖号如: 11,22,33"
-                value="01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49"><br><br>
+                value="01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49"><br><br>
 
             <label for="red">杀红波
                 <input type="checkbox" class="wx1" id="red" name="color" value="red">
@@ -98,14 +98,15 @@
                 <!-- 添加复制结果按钮 -->
                 <button onclick="copyResult3()">复制结果</button>
             </div><br><br>
-            <div id="result" class="sxjg">杀三色结果</div>
+            <div id="result" class="sxjg">杀三色结果</div><br>
+            <button style="background-color:red" onclick="copyBothResults()">复制四个结果</button>
         </div>
         <!-- 杀单双数 -->
         <div class="w1">
             <h2>五、杀单双数</h2>
             <input type="text" id="sty5" style="display: none;">
             <input type="text" for="numbersdsq" id="numbersdsq" placeholder="8.输入数字（以逗号分隔）："
-                value="01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49">
+                value="01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49">
             <br><br>
             <label class="ds" for="even">杀单数<input type="radio" id="even" name="filter" value="even">
             </label>
@@ -125,7 +126,7 @@
         <h2>六、杀数字号</h2>
         <input type="text" id="sty8" style="display: none;">
         <input for="firstInput" type="text" id="firstInput" name="firstInput" placeholder="请输入生肖号如: 11,22,33"
-            value="01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49"
+            value="01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49"
             required><br><br>
         <input for="secondInput" type="text" id="secondInput" name="secondInput" placeholder="请输入杀的生肖号如: 11,22" required
             value="11"><br><br>
@@ -168,7 +169,7 @@
             <button onclick="copyResult5v()">复制结果</button> <!-- 新添加的按钮 -->
         </div>
 
-        <div id="outputb" class="sxjg">波色查询结果</div>
+        <div id="outputb" class="sxjg" ">波色查询结果</div>
 
     </div>
 
